@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "3",
+    "firebase_url": "https://red-ball.firebaseio.com",
+    "project_id": "red-ball",
+    "storage_bucket": "red-ball.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31243:android:8bb19adf9b",
+        "android_client_info": {
+          "package_name": "com.ponygames.IdleRestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312434017493-601cokovcqggbld2gcmdu9ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByZUooe8oYL-MJ7iI03DLUQ8vMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312434017493-601cokovcqggbld2grapcmdu9ar.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312434017493-uhu2umih55ur0rh18v5pjh9ff.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ponygames.IdleRestaurant"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
