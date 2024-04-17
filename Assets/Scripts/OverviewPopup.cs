@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class OverviewPopup : Singleton<OverviewPopup>
 {
@@ -43,7 +44,9 @@ public class OverviewPopup : Singleton<OverviewPopup>
 
 	public void Show()
 	{
-		int num = 0;
+        var s = YandexGame.lang == "ru" ? "/ñ." : "/s";
+
+        int num = 0;
 		double num2 = 0.0;
 		GameObject gameObject = UnityEngine.Object.Instantiate<GameObject>(this.overviewItemPrefab, this.overviewContent);
 		this.overviewItem.Add(gameObject.GetComponent<OverviewItem>());
@@ -71,7 +74,7 @@ public class OverviewPopup : Singleton<OverviewPopup>
 			}
 			num2 += this.kitchen[i].kitchenProperties.totalExtraction;
 		}
-		GameUtilities.String.ToText(this.totalExtractionText, GameUtilities.Currencies.Convert(num2) + "/s");
+		GameUtilities.String.ToText(this.totalExtractionText, GameUtilities.Currencies.Convert(num2) + s);
 		this.activateButton.sprite = ((num <= 0) ? this.disableSprite : this.enableSprite);
 		Singleton<SoundManager>.Instance.Play("Popup");
 		this.overviewPopup.SetActive(true);

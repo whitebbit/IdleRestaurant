@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class SellManagerPopup : MonoBehaviour
 {
@@ -31,7 +32,15 @@ public class SellManagerPopup : MonoBehaviour
 
 	public void Show(ManagerProfile profile, Action sellHalf, Action sellFull)
 	{
-		this.onSellHalf = sellHalf;
+        var upgradeCost = YandexGame.lang == "ru" ? " Стоимость обновления" : " Upgrade Cost";
+        var walkingSpeed = YandexGame.lang == "ru" ? " Скорость ходьбы" : " Walking Speed";
+        var cookingSpeed = YandexGame.lang == "ru" ? " Скорость приготовления" : " Cooking Speed";
+        var loadingSpeed = YandexGame.lang == "ru" ? " Скорость загрузки" : " Loading Speed";
+        var movementSpeed = YandexGame.lang == "ru" ? " Скорость перемещения" : " Movement Speed";
+        var loadExpansion = YandexGame.lang == "ru" ? " Увеличение нагрузки" : " Load Expansion";
+        var duration = YandexGame.lang == "ru" ? "Продолжительность: " : "Duration: ";
+
+        this.onSellHalf = sellHalf;
 		this.onSellFull = sellFull;
 		this.skillIamge.sprite = Singleton<GameProcess>.Instance.GetManagerSkillSprite(profile.skill, true);
 		this.avatarImage.sprite = Singleton<GameProcess>.Instance.GetManagerAvatarSprite(profile.experience);
@@ -39,26 +48,26 @@ public class SellManagerPopup : MonoBehaviour
 		GameUtilities.String.ToText(this.experience, Enum.GetName(typeof(Experience), profile.experience));
 		this.experience.color = Singleton<GameProcess>.Instance.GetManagerTextColor(profile.experience);
 		this.experience.gameObject.GetComponent<Outline>().effectColor = Singleton<GameProcess>.Instance.GetManagerBorderColor(profile.experience);
-		GameUtilities.String.ToText(this.duration, "Duration: " + GameUtilities.DateTime.Convert(Singleton<GameProcess>.Instance.GetManagerSkillDuration(profile.experience, profile.skill)));
+		GameUtilities.String.ToText(this.duration, duration + GameUtilities.DateTime.Convert(Singleton<GameProcess>.Instance.GetManagerSkillDuration(profile.experience, profile.skill)));
 		switch (profile.skill)
 		{
 		case ManagerSkill.UpgradeCost:
-			GameUtilities.String.ToText(this.effective, "-" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Upgrade Cost");
+			GameUtilities.String.ToText(this.effective, "-" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + upgradeCost);
 			break;
 		case ManagerSkill.WalkingSpeed:
-			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Walking Speed");
+			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + walkingSpeed);
 			break;
 		case ManagerSkill.CookingSpeed:
-			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Cooking Speed");
+			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + cookingSpeed);
 			break;
 		case ManagerSkill.LoadingSpeed:
-			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Loading Speed");
+			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + loadingSpeed);
 			break;
 		case ManagerSkill.MovementSpeed:
-			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Movement Speed");
+			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + movementSpeed);
 			break;
 		case ManagerSkill.LoadExpansion:
-			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + " Load Expansion");
+			GameUtilities.String.ToText(this.effective, "x" + Singleton<GameProcess>.Instance.GetManagerSkillEffective(profile.experience, profile.skill) + loadExpansion);
 			break;
 		}
 		Singleton<SoundManager>.Instance.Play("Popup");

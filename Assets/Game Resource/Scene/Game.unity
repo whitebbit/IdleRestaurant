@@ -62,7 +62,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &9999993
 LightmapSettings:
@@ -124,6 +124,58 @@ LightmapSettings:
   m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5a48c6f4e251a7d4291d49c48e58889f,
     type: 2}
+--- !u!114 &19051391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680067}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0422\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u0430\u044F \u043C\u043E\u0449\u043D\u043E\u0441\u0442\u044C"
+  en: Transport Capacity
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &43791551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +459,267 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &140331168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680592}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: " \u041F\u043E\u043B\u043D\u043E\u0435 \u0438\u0437\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0435:"
+  en: ' Total Extraction:'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &164625320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680551}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438"
+  en: Loading Speed
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &355437573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680775}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: " \u041D\u0435\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u0435
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u044B:"
+  en: ' Unassign Manager:'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &413366609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680766}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0445\u043E\u0434\u044C\u0431\u044B"
+  en: Walking Speed
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &543890312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680541}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u0437\u0430 50%"
+  en: Sell for  50%
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &595992720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +825,162 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &752018547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680352}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041C\u0430\u043A\u0441."
+  en: Max
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &776548489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680823}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430?"
+  en: Sell Manager?
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &830053168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680268}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440"
+  en: Manager
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!1001 &901415383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -580,6 +1049,110 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caf9732433f4dc044845763962493607, type: 3}
+--- !u!114 &919009129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680784}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041D\u0430\u043D\u044F\u0442\u044C \u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430"
+  en: Hire Manager
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &993478285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680179}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u0437\u0430 100%"
+  en: Sell for 100%
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &999775390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,7 +1186,111 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0411\u0423\u0441\u0442\u0435\u0440"
+  m_Text: "\u0411\u0423\u0441\u0422\u0435\u0420"
+--- !u!114 &1303960662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680443}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041E\u0431\u0449\u0438\u0439 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442"
+  en: Total Transportation
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1346451539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680214}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041C\u0430\u043A\u0441."
+  en: Max
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &1416826194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,6 +1362,321 @@ MonoBehaviour:
   text: 
   ru: "\u041F\u043E\u043B\u043D\u043E\u0435 \u0438\u0437\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0435"
   en: Total Extraction
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1443285395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680787}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0414\u0436\u0443\u043D"
+  en: Junior
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1736087302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680282}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+  en: Load
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1904766820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680434}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041D\u0430\u0439\u043C\u0438\u0442\u0435 <color=#14A1EFFF>\u0421\u0435\u043D\u044C\u043E\u0440\u0430</color>
+    \u0438\u043B\u0438 \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u043D\u043E\u0433\u043E
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430"
+  en: Hire <color=#14A1EFFF>Senior</color> or better manager
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1923797986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680714}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0412\u044B \u043D\u0430\u043D\u044F\u043B\u0438 \u044D\u0442\u043E\u0433\u043E
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430 \u0437\u0430"
+  en: You hired this manager for
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1996335829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680930}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041E\u0431\u0437\u043E\u0440"
+  en: Overview
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &2044774599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680559}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F"
+  en: Movement Speed
   tr: 
   az: 
   be: 
@@ -1003,6 +1995,7 @@ GameObject:
   - component: {fileID: 1789880861211678807}
   - component: {fileID: 1789880861211680067}
   - component: {fileID: 1789880861211680066}
+  - component: {fileID: 19051391}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -1614,6 +2607,7 @@ GameObject:
   - component: {fileID: 1789880861211679428}
   - component: {fileID: 1789880861211678837}
   - component: {fileID: 1789880861211680119}
+  - component: {fileID: 1789880861211680123}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -2482,6 +3476,7 @@ GameObject:
   - component: {fileID: 1789880861211678875}
   - component: {fileID: 1789880861211680179}
   - component: {fileID: 1789880861211680178}
+  - component: {fileID: 993478285}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -2955,6 +3950,7 @@ GameObject:
   - component: {fileID: 1789880861211678895}
   - component: {fileID: 1789880861211680214}
   - component: {fileID: 1789880861211680213}
+  - component: {fileID: 1346451539}
   m_Layer: 5
   m_Name: Text
   m_TagString: 
@@ -3462,7 +4458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1789880861211678164
 GameObject:
   m_ObjectHideFlags: 0
@@ -3570,6 +4566,7 @@ GameObject:
   - component: {fileID: 1789880861211680268}
   - component: {fileID: 1789880861211680267}
   - component: {fileID: 1789880861211680266}
+  - component: {fileID: 830053168}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -3723,6 +4720,7 @@ GameObject:
   - component: {fileID: 1789880861211678932}
   - component: {fileID: 1789880861211680282}
   - component: {fileID: 1789880861211680281}
+  - component: {fileID: 1736087302}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -4540,6 +5538,7 @@ GameObject:
   - component: {fileID: 1789880861211678969}
   - component: {fileID: 1789880861211680352}
   - component: {fileID: 1789880861211680351}
+  - component: {fileID: 752018547}
   m_Layer: 5
   m_Name: Text
   m_TagString: 
@@ -5571,6 +6570,7 @@ GameObject:
   - component: {fileID: 1789880861211679017}
   - component: {fileID: 1789880861211680434}
   - component: {fileID: 1789880861211680433}
+  - component: {fileID: 1904766820}
   m_Layer: 5
   m_Name: Label
   m_TagString: 
@@ -5665,6 +6665,7 @@ GameObject:
   - component: {fileID: 1789880861211679021}
   - component: {fileID: 1789880861211680443}
   - component: {fileID: 1789880861211680442}
+  - component: {fileID: 1303960662}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -6898,6 +7899,7 @@ GameObject:
   - component: {fileID: 1789880861211680541}
   - component: {fileID: 1789880861211680540}
   - component: {fileID: 1789880861211680539}
+  - component: {fileID: 543890312}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -7077,6 +8079,7 @@ GameObject:
   - component: {fileID: 1789880861211679089}
   - component: {fileID: 1789880861211680551}
   - component: {fileID: 1789880861211680550}
+  - component: {fileID: 164625320}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -7170,6 +8173,7 @@ GameObject:
   - component: {fileID: 1789880861211679094}
   - component: {fileID: 1789880861211680559}
   - component: {fileID: 1789880861211680558}
+  - component: {fileID: 2044774599}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -7504,7 +8508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1789880861211678383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7608,6 +8612,7 @@ GameObject:
   - component: {fileID: 1789880861211679743}
   - component: {fileID: 1789880861211679115}
   - component: {fileID: 1789880861211680592}
+  - component: {fileID: 140331168}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -9205,6 +10210,7 @@ GameObject:
   - component: {fileID: 1789880861211679827}
   - component: {fileID: 1789880861211679190}
   - component: {fileID: 1789880861211680714}
+  - component: {fileID: 1923797986}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -9818,6 +10824,7 @@ GameObject:
   - component: {fileID: 1789880861211679221}
   - component: {fileID: 1789880861211680766}
   - component: {fileID: 1789880861211680765}
+  - component: {fileID: 413366609}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -9945,6 +10952,7 @@ GameObject:
   - component: {fileID: 1789880861211679867}
   - component: {fileID: 1789880861211679227}
   - component: {fileID: 1789880861211680775}
+  - component: {fileID: 355437573}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -10056,6 +11064,7 @@ GameObject:
   - component: {fileID: 1789880861211680784}
   - component: {fileID: 1789880861211680783}
   - component: {fileID: 1789880861211680782}
+  - component: {fileID: 919009129}
   m_Layer: 5
   m_Name: Label
   m_TagString: 
@@ -10093,6 +11102,7 @@ GameObject:
   - component: {fileID: 1789880861211679234}
   - component: {fileID: 1789880861211680787}
   - component: {fileID: 1789880861211680786}
+  - component: {fileID: 1443285395}
   m_Layer: 5
   m_Name: Experience
   m_TagString: 
@@ -10520,6 +11530,7 @@ GameObject:
   - component: {fileID: 1789880861211680823}
   - component: {fileID: 1789880861211680822}
   - component: {fileID: 1789880861211680821}
+  - component: {fileID: 776548489}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -11962,6 +12973,7 @@ GameObject:
   - component: {fileID: 1789880861211680930}
   - component: {fileID: 1789880861211680929}
   - component: {fileID: 1789880861211680928}
+  - component: {fileID: 1996335829}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -34309,7 +35321,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 322, y: 22}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679396
 RectTransform:
@@ -34724,7 +35736,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 121.333336, y: 25.333334}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679417
 RectTransform:
@@ -34783,7 +35795,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 93.03964, y: 39.47136}
+  m_SizeDelta: {x: 104, y: 25.333334}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679420
 RectTransform:
@@ -35156,7 +36168,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 53.56828, y: 39.47136}
+  m_SizeDelta: {x: 96, y: 34.666668}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679439
 RectTransform:
@@ -35353,8 +36365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 101.4978, y: 39.47136}
+  m_AnchoredPosition: {x: -5, y: -3.6}
+  m_SizeDelta: {x: 121.333336, y: 24.666666}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679449
 RectTransform:
@@ -36096,7 +37108,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -25, y: 125}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 158.66667, y: 32.666668}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679486
 RectTransform:
@@ -36280,7 +37292,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 101.4978, y: 39.47136}
+  m_SizeDelta: {x: 121.333336, y: 25.333334}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679495
 RectTransform:
@@ -36745,7 +37757,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 78.94273, y: 39.47136}
+  m_SizeDelta: {x: 120, y: 34.666668}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679518
 RectTransform:
@@ -36764,7 +37776,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 24, y: 34.666668}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679519
 RectTransform:
@@ -36802,7 +37814,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -25, y: 35}
-  m_SizeDelta: {x: 266.4317, y: 39.47136}
+  m_SizeDelta: {x: 337.33334, y: 22}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679521
 RectTransform:
@@ -37128,7 +38140,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 59.20705, y: 39.47136}
+  m_SizeDelta: {x: 192, y: 34.666668}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679537
 RectTransform:
@@ -37328,7 +38340,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 20, y: 40}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 153.33333, y: 44.666668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679547
 RectTransform:
@@ -37366,8 +38378,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5, y: -0.0000023842}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -5, y: -0.0000038146973}
+  m_SizeDelta: {x: 92, y: 22}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679549
 RectTransform:
@@ -38151,7 +39163,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -2.3}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 20.666666, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679589
 RectTransform:
@@ -38475,7 +39487,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 156.4758, y: 39.47136}
+  m_SizeDelta: {x: 208, y: 24.666666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679605
 RectTransform:
@@ -39131,7 +40143,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 253.7445, y: 39.47136}
+  m_SizeDelta: {x: 240, y: 23.333334}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679638
 RectTransform:
@@ -39467,7 +40479,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -1}
-  m_SizeDelta: {x: 15.50661, y: 39.47136}
+  m_SizeDelta: {x: 24, y: 34.666668}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679655
 RectTransform:
@@ -39606,7 +40618,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -15, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 40.666668, y: 35.333332}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!224 &1789880861211679662
 RectTransform:
@@ -39666,7 +40678,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -5.7}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 107.333336, y: 22}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679665
 RectTransform:
@@ -39911,7 +40923,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -10, y: 0}
-  m_SizeDelta: {x: 101.408455, y: 39.43662}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!224 &1789880861211679677
 RectTransform:
@@ -40465,7 +41477,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: 215.21127, y: 58.59155}
+  m_SizeDelta: {x: 289.33334, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679705
 RectTransform:
@@ -40662,7 +41674,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 180.4405, y: 39.47136}
+  m_SizeDelta: {x: 317.33334, y: 27.333334}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679715
 RectTransform:
@@ -40758,7 +41770,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 212.8634, y: 39.47136}
+  m_SizeDelta: {x: 320, y: 23.333334}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679720
 RectTransform:
@@ -40963,8 +41975,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -25, y: 45.7}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -25, y: 29}
+  m_SizeDelta: {x: 381.33334, y: 24.666666}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679730
 RectTransform:
@@ -41347,7 +42359,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -0.0000038146973}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 116, y: 28}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679749
 RectTransform:
@@ -41523,7 +42535,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 93.03964, y: 39.47136}
+  m_SizeDelta: {x: 144, y: 34.666668}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679758
 RectTransform:
@@ -41564,7 +42576,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 104, y: 25.333334}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679760
 RectTransform:
@@ -41583,7 +42595,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 96, y: 34.666668}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679761
 RectTransform:
@@ -42488,7 +43500,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 20, y: 40}
-  m_SizeDelta: {x: 105.7269, y: 52.15859}
+  m_SizeDelta: {x: 140, y: 40.666668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679806
 RectTransform:
@@ -42652,7 +43664,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -15, y: 0}
-  m_SizeDelta: {x: 40.88106, y: 35.24229}
+  m_SizeDelta: {x: 40.666668, y: 35.333332}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!224 &1789880861211679814
 RectTransform:
@@ -42671,7 +43683,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 322, y: 22}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679815
 RectTransform:
@@ -42690,7 +43702,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: 3.2343}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 41.333332, y: 30}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679816
 RectTransform:
@@ -42747,7 +43759,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 205, y: 80}
-  m_SizeDelta: {x: 358.30988, y: 39.43662}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679819
 RectTransform:
@@ -43008,7 +44020,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: -4.8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 130.66667, y: 27.333334}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &1789880861211679832
 RectTransform:
@@ -43522,8 +44534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: 0}
-  m_SizeDelta: {x: 52, y: 56}
+  m_AnchoredPosition: {x: -36.33, y: 3.31}
+  m_SizeDelta: {x: 49.35, y: 49.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679858
 RectTransform:
@@ -43584,7 +44596,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 310, y: 30}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1789880861211679861
 RectTransform:
@@ -43829,7 +44841,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 30}
-  m_SizeDelta: {x: 163.5242, y: 39.47136}
+  m_SizeDelta: {x: 213.33333, y: 19.333334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679873
 RectTransform:
@@ -44900,7 +45912,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 224, y: 27.333334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679927
 RectTransform:
@@ -45500,7 +46512,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -5, y: -2.5}
-  m_SizeDelta: {x: 93.03964, y: 39.47136}
+  m_SizeDelta: {x: 104, y: 24.666666}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679956
 RectTransform:
@@ -45798,7 +46810,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -25, y: 125}
-  m_SizeDelta: {x: 117.0044, y: 52.15859}
+  m_SizeDelta: {x: 214.66667, y: 44.666668}
   m_Pivot: {x: 1, y: 0}
 --- !u!224 &1789880861211679970
 RectTransform:
@@ -46504,7 +47516,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -740}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1789880861211680006
 RectTransform:
@@ -46543,7 +47555,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 20, y: 40}
-  m_SizeDelta: {x: 105.7269, y: 52.15859}
+  m_SizeDelta: {x: 86.666664, y: 24.666666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211680008
 RectTransform:
@@ -47863,8 +48875,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -47875,7 +48887,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Transport Capacity
+  m_Text: "\u0422\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u0430\u044F
+    \u043C\u043E\u0449\u043D\u043E\u0441\u0442\u044C"
 --- !u!114 &1789880861211680068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48750,8 +49763,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -48828,8 +49841,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -49304,8 +50317,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -49316,7 +50329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '   Assign Manager:'
+  m_Text: " \u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u0439 \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440:"
 --- !u!114 &1789880861211680120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49433,6 +50446,58 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1789880861211680123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680119}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: " \u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u0439 \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440:"
+  en: ' Assign Manager:'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &1789880861211680126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49828,7 +50893,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -50161,8 +51226,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -51099,8 +52164,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -51111,7 +52176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Sell for 100%
+  m_Text: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u0437\u0430 100%"
 --- !u!114 &1789880861211680180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52034,8 +53099,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -52181,8 +53246,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -52193,7 +53258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Max
+  m_Text: "\u041C\u0430\u043A\u0441."
 --- !u!114 &1789880861211680215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53029,7 +54094,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -53077,7 +54142,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -53126,7 +54191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -53174,8 +54239,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -53588,7 +54653,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
@@ -53600,7 +54665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Manager
+  m_Text: "\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440"
 --- !u!114 &1789880861211680269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54004,7 +55069,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -54016,7 +55081,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Load
+  m_Text: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
 --- !u!114 &1789880861211680283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54665,7 +55730,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -55266,7 +56331,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -55401,7 +56466,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -55982,8 +57047,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -55994,7 +57059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Max
+  m_Text: "\u041C\u0430\u043A\u0441."
 --- !u!114 &1789880861211680353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57061,8 +58126,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -58079,7 +59144,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -58349,8 +59414,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -58361,7 +59426,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.9
-  m_Text: Hire <color=#14A1EFFF>Senior</color> or better manager
+  m_Text: "\u041D\u0430\u0439\u043C\u0438\u0442\u0435 <color=#14A1EFFF>\u0421\u0435\u043D\u044C\u043E\u0440\u0430</color>
+    \u0438\u043B\u0438 \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u043D\u043E\u0433\u043E
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430"
 --- !u!114 &1789880861211680435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58601,8 +59668,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -58613,7 +59680,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Total Transportation
+  m_Text: "\u041E\u0431\u0449\u0438\u0439 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442"
 --- !u!114 &1789880861211680444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59345,7 +60412,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -60391,8 +61458,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -61139,8 +62206,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -61261,7 +62328,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -61535,8 +62602,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -61547,7 +62614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Sell for 50%
+  m_Text: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u0437\u0430 50%"
 --- !u!114 &1789880861211680542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61849,8 +62916,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -61861,7 +62928,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Loading Speed
+  m_Text: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438"
 --- !u!114 &1789880861211680552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62092,8 +63159,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -62104,7 +63171,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Movement Speed
+  m_Text: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F"
 --- !u!114 &1789880861211680560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63170,8 +64237,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -63182,7 +64249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '    Total Extraction:'
+  m_Text: " \u041F\u043E\u043B\u043D\u043E\u0435 \u0438\u0437\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0435:"
 --- !u!114 &1789880861211680593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63790,7 +64857,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -63838,8 +64905,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -63886,7 +64953,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -65386,8 +66453,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 37
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -65984,8 +67051,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -66362,7 +67429,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
-    m_FontSize: 19
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -66740,8 +67807,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -66752,7 +67819,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: You hired this manager for
+  m_Text: "\u0412\u044B \u043D\u0430\u043D\u044F\u043B\u0438 \u044D\u0442\u043E\u0433\u043E
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430 \u0437\u0430"
 --- !u!114 &1789880861211680715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68127,8 +69195,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -68139,7 +69207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Walking Speed
+  m_Text: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0445\u043E\u0434\u044C\u0431\u044B"
 --- !u!114 &1789880861211680767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68400,8 +69468,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -68412,7 +69480,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '   Unassign Manager:'
+  m_Text: " \u041D\u0435\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u0435
+    \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u044B:"
 --- !u!114 &1789880861211680776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68657,8 +69726,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -68669,7 +69738,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hire Manager
+  m_Text: "\u041D\u0430\u043D\u044F\u0442\u044C \u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430"
 --- !u!114 &1789880861211680785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68736,8 +69805,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -68748,7 +69817,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Junior
+  m_Text: "\u0414\u0436\u0443\u043D"
 --- !u!114 &1789880861211680788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69718,8 +70787,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 21
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -69842,8 +70911,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -69854,7 +70923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sell Manager?
+  m_Text: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C \u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430?"
 --- !u!114 &1789880861211680824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70086,7 +71155,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -72470,8 +73539,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -72826,7 +73895,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -72950,7 +74019,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
@@ -72962,7 +74031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Overview
+  m_Text: "\u041E\u0431\u0437\u043E\u0440"
 --- !u!114 &1789880861211680931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74376,8 +75445,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -74522,8 +75591,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 21
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2

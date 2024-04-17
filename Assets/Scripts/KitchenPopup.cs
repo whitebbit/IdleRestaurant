@@ -130,7 +130,7 @@ public class KitchenPopup : Singleton<KitchenPopup>
 		this.kitchenController = kitchenController;
 		var title = YandexGame.lang == "ru" ? "Кухня ур. " : "Kitchen Lv. ";
 		var level = YandexGame.lang == "ru" ? "Уровень " : "Level ";
-		var boost = YandexGame.lang == "ru" ? "Следующий бустер на уровне  " : "Next boost at level ";
+		var boost = YandexGame.lang == "ru" ? "Следующий бустер\n на уровне  " : "Next boost at level ";
 		var boostMax = YandexGame.lang == "ru" ? "Максимальный бустер" : "Boost maximum.";
 		
 		GameUtilities.String.ToText(this.title, title + kitchenController.kitchenData.level.ToString());
@@ -178,7 +178,7 @@ public class KitchenPopup : Singleton<KitchenPopup>
 			GameUtilities.String.ToText(this.nextWorking, "+" + GameUtilities.Currencies.Convert(kitchenProperties2.workingSpeed - kitchenProperties.workingSpeed) + seconds);
 			GameUtilities.String.ToText(this.nextTotal, "+" + GameUtilities.Currencies.Convert(kitchenProperties2.totalExtraction - kitchenProperties.totalExtraction) + seconds);
 			double num2 = Singleton<GameProcess>.Instance.GetUpgradePrice(kitchenController.kitchenData.level, num, kitchenController.boostController.upgradeCostReduced, Location.Kitchen, kitchenController.kitchenData.floor);
-			var levelUpX = YandexGame.lang == "ru" ? "Повышение уровня X" : "Level Up x";
+			var levelUpX = YandexGame.lang == "ru" ? "Повышение\nуровня X" : "Level Up x";
 			GameUtilities.String.ToText(this.levelNumber, levelUpX + num.ToString());
 			GameUtilities.String.ToText(this.upgradePrice, GameUtilities.Currencies.Convert(num2));
 			this.upgradeButton.sprite = ((Singleton<GameManager>.Instance.database.cash < num2 || kitchenController.kitchenData.level + num > Singleton<GameProcess>.Instance.GetMaxLevel(Location.Kitchen)) ? this.disableSprite : this.enableSprite);

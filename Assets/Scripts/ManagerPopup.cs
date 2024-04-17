@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class ManagerPopup : Singleton<ManagerPopup>
 {
@@ -16,20 +17,26 @@ public class ManagerPopup : Singleton<ManagerPopup>
 
 		internal void __m__0()
 		{
-			double num = Math.Round(this.targetProfile.price / 2.0);
+            var managerSoldFor = YandexGame.lang == "ru" ? "Менеджер продал за" : "Manager sold for";
+			var coin = YandexGame.lang == "ru" ? "денег" : "coin";
+
+            double num = Math.Round(this.targetProfile.price / 2.0);
 			Singleton<GameManager>.Instance.SetCash(num);
 			this._this.profile.Remove(this.targetProfile);
 			this.tag.SetActive(false);
-			Notification.instance.Warning("Manager sold for <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + "</color> coin");
+			Notification.instance.Warning($"{managerSoldFor} <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + $"</color> {coin}");
 		}
 
 		internal void __m__1()
 		{
-			double num = Math.Round(this.targetProfile.price);
+            var managerSoldFor = YandexGame.lang == "ru" ? "Менеджер продал за" : "Manager sold for";
+            var coin = YandexGame.lang == "ru" ? "денег" : "coin";
+
+            double num = Math.Round(this.targetProfile.price);
 			Singleton<GameManager>.Instance.SetCash(num);
 			this._this.profile.Remove(this.targetProfile);
 			this.tag.SetActive(false);
-			Notification.instance.Warning("Manager sold for <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + "</color> coin");
+			Notification.instance.Warning($"{managerSoldFor} <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + $"</color> {coin}");
 		}
 	}
 
@@ -255,20 +262,23 @@ public class ManagerPopup : Singleton<ManagerPopup>
 
 	public void SellConfirm(ManagerProfile targetProfile, GameObject tag)
 	{
-		this.sellManager.Show(targetProfile, delegate
+        var managerSoldFor = YandexGame.lang == "ru" ? "Менеджер продал за" : "Manager sold for";
+        var coin = YandexGame.lang == "ru" ? "денег" : "coin";
+
+        this.sellManager.Show(targetProfile, delegate
 		{
 			double num = Math.Round(targetProfile.price / 2.0);
 			Singleton<GameManager>.Instance.SetCash(num);
 			this.profile.Remove(targetProfile);
 			tag.SetActive(false);
-			Notification.instance.Warning("Manager sold for <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + "</color> coin");
+			Notification.instance.Warning($"{managerSoldFor} <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + $"</color> {coin}");
 		}, delegate
 		{
 			double num = Math.Round(targetProfile.price);
 			Singleton<GameManager>.Instance.SetCash(num);
 			this.profile.Remove(targetProfile);
 			tag.SetActive(false);
-			Notification.instance.Warning("Manager sold for <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + "</color> coin");
+			Notification.instance.Warning($"{managerSoldFor} <color=#FBFF00FF>" + GameUtilities.Currencies.Convert(num) + $"</color> {coin}");
 		});
 	}
 

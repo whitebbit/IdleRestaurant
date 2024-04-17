@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class ElevatorController : MonoBehaviour
 {
@@ -294,13 +295,15 @@ public class ElevatorController : MonoBehaviour
 
 	public void Initialize()
 	{
-		this.managerController.managerAssign = new Action(this.StartTransport);
+        var level = YandexGame.lang == "ru" ? "Уровень \n" : "Level \n";
+
+        this.managerController.managerAssign = new Action(this.StartTransport);
 		GameManager expr_1C = Singleton<GameManager>.Instance;
 		expr_1C.onCashChange = (Action<double>)Delegate.Combine(expr_1C.onCashChange, new Action<double>(this.OnCashChange));
 		float distance = 2f * (float)((this.kitchenController.Count <= 0) ? 1 : this.kitchenController.Count);
 		this.elevatorProperties = Singleton<GameProcess>.Instance.GetElevatorProperties(distance, this.elevatorData.level);
 		GameUtilities.String.ToText(this.cashText, GameUtilities.Currencies.Convert(this.elevatorData.cash));
-		GameUtilities.String.ToText(this.levelText, "Level \n" + this.elevatorData.level.ToString());
+		GameUtilities.String.ToText(this.levelText, level + this.elevatorData.level.ToString());
 		this.boostController.Refresh();
 		this.FillProduct(0f);
 		this.tutorial_3.SetActive(!GameManager.IsDoneTutorial(3) && GameManager.IsDoneTutorial(2));
@@ -330,9 +333,11 @@ public class ElevatorController : MonoBehaviour
 
 	public void Upgrade()
 	{
-		float distance = 2f * (float)((this.kitchenController.Count <= 0) ? 1 : this.kitchenController.Count);
+        var level = YandexGame.lang == "ru" ? "Уровень \n" : "Level \n";
+
+        float distance = 2f * (float)((this.kitchenController.Count <= 0) ? 1 : this.kitchenController.Count);
 		this.elevatorProperties = Singleton<GameProcess>.Instance.GetElevatorProperties(distance, this.elevatorData.level);
-		this.levelText.text = "Level \n" + this.elevatorData.level.ToString();
+		this.levelText.text = level + this.elevatorData.level.ToString();
 	}
 
 	public void StartTransport()
