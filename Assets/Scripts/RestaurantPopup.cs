@@ -134,7 +134,7 @@ public class RestaurantPopup : MonoBehaviour
         var boostMaximum = YandexGame.lang == "ru" ? "Усиление максимальное." : "Boost maximum.";
         var max = YandexGame.lang == "ru" ? "Макс." : "Max";
         var s = YandexGame.lang == "ru" ? "/с." : "/s";
-        var levelUpX = YandexGame.lang == "ru" ? "Повысить Уровень X" : "Level Up x";
+        var levelUpX = YandexGame.lang == "ru" ? "Повышение\nуровня x" : "Level Up x";
 
         GameUtilities.String.ToText(this.title, restaurantLv + this.restaurantController.restaurantData.level.ToString());
 		int lastBonusAtLevel = Singleton<GameProcess>.Instance.GetLastBonusAtLevel(this.restaurantController.restaurantData.level, Location.Restaurant);

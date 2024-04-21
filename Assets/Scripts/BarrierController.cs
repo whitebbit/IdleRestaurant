@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class BarrierController : MonoBehaviour
 {
@@ -295,12 +296,16 @@ public class BarrierController : MonoBehaviour
 
 	public void UnlockKitchenWithDiamond()
 	{
-		int count = Singleton<GameManager>.Instance.kitchenController.Count;
+        var notEnoughDiamond = YandexGame.lang == "ru" ? "Не достаточно бриллиантов" : "Not Enough Diamond";
+        var doYouWantTo = YandexGame.lang == "ru" ? "Вы хотите открыть кухню за" : "Do you want to unlock kitchen for";
+        var diamonds = YandexGame.lang == "ru" ? "бриллиантов" : "diamond";
+
+        int count = Singleton<GameManager>.Instance.kitchenController.Count;
 		double idleCash = Singleton<GameManager>.Instance.database.restaurant[this.targetRestaurant].idleCash;
 		int diamond = Singleton<GameProcess>.Instance.GetFloorPrice(count, idleCash);
 		if (Singleton<GameManager>.Instance.database.diamond < diamond)
 		{
-			Notification.instance.Warning("Not Enough Diamond");
+			Notification.instance.Warning(notEnoughDiamond);
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
@@ -308,7 +313,7 @@ public class BarrierController : MonoBehaviour
 		{
 			Singleton<GameManager>.Instance.UnlockKitchen();
 			Singleton<GameManager>.Instance.SetDiamond(-diamond);
-		}, "Do you want to unlock kitchen for <color=#00B5FFFF>" + diamond.ToString() + "</color> diamond?");
+		}, $"{doYouWantTo} <color=#00B5FFFF>" + diamond.ToString() + $"</color> {diamonds}?");
 	}
 
 	public void StartProcess()
@@ -348,12 +353,16 @@ public class BarrierController : MonoBehaviour
 
 	public void UnlockBarrierWithDiamond()
 	{
-		int count = Singleton<GameManager>.Instance.kitchenController.Count;
+        var notEnoughDiamond = YandexGame.lang == "ru" ? "Не достаточно бриллиантов" : "Not Enough Diamond";
+        var doYouWantTo = YandexGame.lang == "ru" ? "Вы хотите убрать барьер за" : "Do you want to remove barrier for";
+        var diamonds = YandexGame.lang == "ru" ? "бриллиантов" : "diamond";
+
+        int count = Singleton<GameManager>.Instance.kitchenController.Count;
 		float num = (float)this.barrierData.unlockRemaining / (float)this.config.barrier[count / this.config.kitchen.barrierStep - 1].unlockDuration;
 		int diamond = (int)Math.Ceiling((double)((float)this.config.barrier[count / this.config.kitchen.barrierStep - 1].diamondToUnlock * num));
 		if (Singleton<GameManager>.Instance.database.diamond < diamond)
 		{
-			Notification.instance.Warning("Not Enough Diamond");
+			Notification.instance.Warning(notEnoughDiamond);
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
@@ -361,7 +370,7 @@ public class BarrierController : MonoBehaviour
 		{
 			Singleton<GameManager>.Instance.SetDiamond(-diamond);
 			this.ProcessDone();
-		}, "Do you want to remove barrier for <color=#00B5FFFF>" + diamond.ToString() + "</color> diamond?");
+		}, $"{doYouWantTo} <color=#00B5FFFF>" + diamond.ToString() + $"</color> {diamonds}?");
 	}
 
 	public void UnlockBarrierFinal()

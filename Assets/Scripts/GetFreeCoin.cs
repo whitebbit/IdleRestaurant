@@ -234,7 +234,7 @@ public class GetFreeCoin : MonoBehaviour
 
 	public void GetFreeCash()
 	{
-        var received = YandexGame.lang == "ru" ? "Полученный" : "Received";
+        var received = YandexGame.lang == "ru" ? "Получено" : "Received";
         var diamond = YandexGame.lang == "ru" ? "бриллиант" : "diamond";
 
         this.freeCoinData.free = false;

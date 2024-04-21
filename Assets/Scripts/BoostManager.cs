@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class BoostManager : MonoBehaviour
 {
@@ -206,7 +207,10 @@ public class BoostManager : MonoBehaviour
 
 	public void TotalEffectiveCompute()
 	{
-		int num = 0;
+        var boost = YandexGame.lang == "ru" ? "БУСТЕР" : "BOOST";
+        var unlimited = YandexGame.lang == "ru" ? "Неограниченный" : "Unlimited";
+
+        int num = 0;
 		for (int k = 0; k < this.boostData.boosts.Count; k++)
 		{
 			num += this.boostData.boosts[k].effective;
@@ -257,11 +261,12 @@ public class BoostManager : MonoBehaviour
 		}
 		if (this.totalRemaining == 0)
 		{
-			GameUtilities.String.ToText(this.mainScreenRemaining, "BOOST");
+			GameUtilities.String.ToText(this.mainScreenRemaining, boost);
 			if (Singleton<DataManager>.Instance.database.nonConsume.Contains("onlinepack"))
 			{
-				GameUtilities.String.ToText(this.inventoryRemaining, "Unlimited");
-			}
+				GameUtilities.String.ToText(this.inventoryRemaining, unlimited);
+
+            }
 		}
 		if (this.totalRemaining > 0 && !this.boosting)
 		{
@@ -341,7 +346,9 @@ public class BoostManager : MonoBehaviour
 
 	private void AdBoostPopupDisplay()
 	{
-		float num = (float)this.configuration.boost.boostIncomeEffective;
+		var forAdditional = YandexGame.lang == "ru" ? "для дополнительного " : "for additional ";
+
+        float num = (float)this.configuration.boost.boostIncomeEffective;
 		int num2 = this.configuration.boost.boostIncomeMaxDuration - this.boostData.boostRemaining;
 		if (num2 > this.configuration.boost.boostIncomeDuration)
 		{
@@ -351,7 +358,7 @@ public class BoostManager : MonoBehaviour
 		{
 			"<color=#009FD6FF>x",
 			num,
-			" income</color> for additional ",
+			$" income</color> {forAdditional}",
 			GameUtilities.DateTime.Convert(num2)
 		}));
 		this.nextBoostFill.fillAmount = (float)(this.boostData.boostRemaining + this.configuration.boost.boostIncomeDuration) / (float)this.configuration.boost.boostIncomeMaxDuration;

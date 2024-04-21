@@ -2,6 +2,7 @@ using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class ShopManager : MonoBehaviour
 {
@@ -59,13 +60,16 @@ public class ShopManager : MonoBehaviour
 
 	private sealed class _BuyPack_c__AnonStorey0
 	{
-		internal int index;
+
+        internal int index;
 
 		internal ShopManager _this;
 
 		internal void __m__0()
 		{
-			if (this.index != 0)
+            var purchaseCompleted = YandexGame.lang == "ru" ? "Покупка Завершена" : "Purchased Completed";
+
+            if (this.index != 0)
 			{
 				if (this.index == 1)
 				{
@@ -80,7 +84,7 @@ public class ShopManager : MonoBehaviour
 				this._this.packProduct[this.index].target.SetActive(false);
 			}
 			Singleton<SoundManager>.Instance.Play("Purchased");
-			Notification.instance.Warning("Purchased Completed");
+			Notification.instance.Warning(purchaseCompleted);
 			if (Singleton<DataManager>.Instance.database.nonConsume.Count == this._this.packProduct.Length)
 			{
 				this._this.packHeader.SetActive(false);
@@ -129,8 +133,11 @@ public class ShopManager : MonoBehaviour
 
 		internal void __m__0()
 		{
-			this._this.gameManager.SetDiamond(this._this.diamondProduct[this.index].value);
-			Notification.instance.Warning("Received <color=#00FFDFFF>" + this._this.diamondProduct[this.index].value.ToString() + "</color> diamond");
+            var received = YandexGame.lang == "ru" ? "Получено" : "Received";
+            var diamond = YandexGame.lang == "ru" ? "бриллиант" : "diamond";
+
+            this._this.gameManager.SetDiamond(this._this.diamondProduct[this.index].value);
+			Notification.instance.Warning($"{received} <color=#00FFDFFF>" + this._this.diamondProduct[this.index].value.ToString() + $"</color> {diamond}");
 			Singleton<SoundManager>.Instance.Play("Purchased");
 		}
 	}
@@ -235,9 +242,13 @@ public class ShopManager : MonoBehaviour
 
 	public void BuyCoin(int index)
 	{
-		if (Singleton<DataManager>.Instance.database.diamond < this.coinProduct[index].price)
+        var notEnoughDiamond = YandexGame.lang == "ru" ? "Не Хватает Бриллиантов" : "Not Enough Diamond";
+        var DoYouWantToBuy = YandexGame.lang == "ru" ? "Вы хотите купить этот товар за" : "Do you want to buy this item for";
+		var diamond = YandexGame.lang == "ru" ? "бриллиантов" : "diamond";
+
+        if (Singleton<DataManager>.Instance.database.diamond < this.coinProduct[index].price)
 		{
-			Notification.instance.Warning("Not Enough Diamond");
+			Notification.instance.Warning(notEnoughDiamond);
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
@@ -247,14 +258,18 @@ public class ShopManager : MonoBehaviour
 			double cash = this.GetInstantCash() * (double)this.coinProduct[index].value;
 			this.coinItemPool.Pool(this.coinTargetLabel, cash);
 			Singleton<SoundManager>.Instance.Play("Purchased");
-		}, "Do you want to buy this item or <color=#00B5FFFF>" + this.coinProduct[index].price.ToString() + "</color> diamond ?");
+		}, $"{DoYouWantToBuy} <color=#00B5FFFF>" + this.coinProduct[index].price.ToString() + $"</color> {diamond} ?");
 	}
 
 	public void BuyBoost(int index)
 	{
-		if (Singleton<DataManager>.Instance.database.diamond < this.boostProduct[index].price)
+        var notEnoughDiamond = YandexGame.lang == "ru" ? "Не Хватает Бриллиантов" : "Not Enough Diamond";
+        var DoYouWantToBuy = YandexGame.lang == "ru" ? "Вы хотите купить этот товар за" : "Do you want to buy this item for";
+        var diamond = YandexGame.lang == "ru" ? "бриллиантов" : "diamond";
+
+        if (Singleton<DataManager>.Instance.database.diamond < this.boostProduct[index].price)
 		{
-			Notification.instance.Warning("Not Enough Diamond");
+			Notification.instance.Warning(notEnoughDiamond);
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
@@ -267,7 +282,7 @@ public class ShopManager : MonoBehaviour
 			item.itemCount = 1;
 			Singleton<Inventory>.Instance.Add(item);
 			Singleton<SoundManager>.Instance.Play("Purchased");
-		}, "Do you want to buy this item for <color=#00B5FFFF>" + this.boostProduct[index].price.ToString() + "</color> diamond ?");
+		}, $"{DoYouWantToBuy} <color=#00B5FFFF>" + this.boostProduct[index].price.ToString() + $"</color> {diamond} ?");
 	}
 
 	public void BuyDiamond(int index)
