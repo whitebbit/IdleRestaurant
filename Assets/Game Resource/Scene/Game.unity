@@ -459,6 +459,59 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &75015388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680986}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "<color=#009FD6FF>x2 \u0434\u043E\u0445\u043E\u0434\u0430</color> \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435
+    2 \u0447\u0430\u0441\u043E\u0432"
+  en: <color=#009FD6FF>x2 income</color> for additional 2h
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &140331168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +531,61 @@ MonoBehaviour:
   text: 
   ru: " \u041F\u043E\u043B\u043D\u043E\u0435 \u0438\u0437\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0435:"
   en: ' Total Extraction:'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &157938688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680707}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u0443\u0439\u0442\u0435 \u0432\u0441\u0435\u0445\n\u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u043E\u0432
+    \u0441\u0440\u0430\u0437\u0443!"
+  en: 'Activate all
+
+    manager at once!'
   tr: 
   az: 
   be: 
@@ -563,6 +671,58 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &335543306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680973}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+  en: Activate
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &355437573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +743,59 @@ MonoBehaviour:
   ru: " \u041D\u0435\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u0435
     \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u044B:"
   en: ' Unassign Manager:'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &396070044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680909}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041D\u0435\u0442 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+    \u0443\u0441\u0438\u043B\u0435\u043D\u0438\u044F!"
+  en: No active boost!
   tr: 
   az: 
   be: 
@@ -981,6 +1194,58 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &849600142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680984}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "x2 \u0440\u0435\u043A\u043B\u0430\u043C\u043D\u043E\u0435\n\u0443\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
+  en: x2 Ad Boost
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!1001 &901415383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1187,6 +1452,110 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0411\u0423\u0441\u0422\u0435\u0420"
+--- !u!114 &1246965897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680594}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+  en: Shop
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1279206270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680807}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
+  en: Boost
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &1303960662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1395,13 +1764,13 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
---- !u!114 &1443285395
+--- !u!114 &1526098023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789880861211678523}
+  m_GameObject: {fileID: 1789880861211678119}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
@@ -1409,11 +1778,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMPComponent: {fileID: 0}
   uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 1789880861211680787}
+  textLComponent: {fileID: 1789880861211680191}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
-  ru: "\u0414\u0436\u0443\u043D"
-  en: Junior
+  ru: "\u043E\u0442\u043A\u0440\u044B\u0442\u044C"
+  en: OPEN
   tr: 
   az: 
   be: 
@@ -1466,6 +1835,60 @@ MonoBehaviour:
   text: 
   ru: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
   en: Load
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &1858884127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680734}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0440\u0435\u043A\u043B\u0430\u043C\u0443,
+    \u0447\u0442\u043E\u0431\u044B \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C\n\u0441\u0432\u043E\u0439
+    \u0434\u043E\u0445\u043E\u0434 \u0432 2 \u0440\u0430\u0437\u0430"
+  en: Watch Ad to boost x2 your income
   tr: 
   az: 
   be: 
@@ -1606,6 +2029,58 @@ MonoBehaviour:
   processTranslateLabel: 
   componentTextField: 0
   countLang: 0
+--- !u!114 &1933367921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680427}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "<color=yellow>2X</color> \u0414\u041E\u0425\u041E\u0414"
+  en: <color=yellow>2X</color> INCOME
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &1996335829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,6 +2152,58 @@ MonoBehaviour:
   text: 
   ru: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F"
   en: Movement Speed
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
+--- !u!114 &2061734162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680305}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u041E\u041B\u0423\u0427\u0418\u0422\u042C\n\u0423\u0421\u0418\u041B\u0415\u041D\u0418\u0415"
+  en: GET BOOST
   tr: 
   az: 
   be: 
@@ -3153,7 +3680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1789880861211678093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3640,6 +4167,7 @@ GameObject:
   - component: {fileID: 1789880861211678882}
   - component: {fileID: 1789880861211680191}
   - component: {fileID: 1789880861211680190}
+  - component: {fileID: 1526098023}
   m_Layer: 5
   m_Name: Text
   m_TagString: 
@@ -4964,6 +5492,7 @@ GameObject:
   - component: {fileID: 1789880861211678943}
   - component: {fileID: 1789880861211680305}
   - component: {fileID: 1789880861211680304}
+  - component: {fileID: 2061734162}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -6479,6 +7008,7 @@ GameObject:
   - component: {fileID: 1789880861211679013}
   - component: {fileID: 1789880861211680427}
   - component: {fileID: 1789880861211680426}
+  - component: {fileID: 1933367921}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -8508,7 +9038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1789880861211678383
 GameObject:
   m_ObjectHideFlags: 0
@@ -8632,6 +9162,7 @@ GameObject:
   - component: {fileID: 1789880861211679116}
   - component: {fileID: 1789880861211680594}
   - component: {fileID: 1789880861211680593}
+  - component: {fileID: 1246965897}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -10053,6 +10584,7 @@ GameObject:
   - component: {fileID: 1789880861211679184}
   - component: {fileID: 1789880861211680707}
   - component: {fileID: 1789880861211680706}
+  - component: {fileID: 157938688}
   m_Layer: 5
   m_Name: Description
   m_TagString: 
@@ -10434,6 +10966,7 @@ GameObject:
   - component: {fileID: 1789880861211679839}
   - component: {fileID: 1789880861211679201}
   - component: {fileID: 1789880861211680734}
+  - component: {fileID: 1858884127}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -10602,6 +11135,7 @@ GameObject:
   - component: {fileID: 1789880861211680748}
   - component: {fileID: 1789880861211680747}
   - component: {fileID: 1789880861211680746}
+  - component: {fileID: 1789880861211680752}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -11102,7 +11636,6 @@ GameObject:
   - component: {fileID: 1789880861211679234}
   - component: {fileID: 1789880861211680787}
   - component: {fileID: 1789880861211680786}
-  - component: {fileID: 1443285395}
   m_Layer: 5
   m_Name: Experience
   m_TagString: 
@@ -11311,6 +11844,7 @@ GameObject:
   - component: {fileID: 1789880861211680807}
   - component: {fileID: 1789880861211680806}
   - component: {fileID: 1789880861211680805}
+  - component: {fileID: 1279206270}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -12615,6 +13149,7 @@ GameObject:
   - component: {fileID: 1789880861211679952}
   - component: {fileID: 1789880861211679305}
   - component: {fileID: 1789880861211680909}
+  - component: {fileID: 396070044}
   m_Layer: 5
   m_Name: Text
   m_TagString: 
@@ -13527,6 +14062,7 @@ GameObject:
   - component: {fileID: 1789880861211680973}
   - component: {fileID: 1789880861211680972}
   - component: {fileID: 1789880861211680971}
+  - component: {fileID: 335543306}
   m_Layer: 5
   m_Name: Label
   m_TagString: 
@@ -13638,6 +14174,7 @@ GameObject:
   - component: {fileID: 1789880861211680984}
   - component: {fileID: 1789880861211680983}
   - component: {fileID: 1789880861211680982}
+  - component: {fileID: 849600142}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -13657,6 +14194,7 @@ GameObject:
   - component: {fileID: 1789880861211679351}
   - component: {fileID: 1789880861211680986}
   - component: {fileID: 1789880861211680985}
+  - component: {fileID: 75015388}
   m_Layer: 5
   m_Name: Title
   m_TagString: 
@@ -40923,7 +41461,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -10, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 112, y: 23.333334}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!224 &1789880861211679677
 RectTransform:
@@ -43759,7 +44297,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 205, y: 80}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 374, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679819
 RectTransform:
@@ -44351,7 +44889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 10}
+  m_AnchoredPosition: {x: 0, y: 0.0000038146973}
   m_SizeDelta: {x: 380, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679849
@@ -45593,7 +46131,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.00000088978}
-  m_SizeDelta: {x: 0, y: 280}
+  m_SizeDelta: {x: 0, y: 245}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &1789880861211679911
 RectTransform:
@@ -46263,7 +46801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -80}
+  m_AnchoredPosition: {x: 80, y: -80}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211679943
@@ -46840,7 +47378,7 @@ RectTransform:
   m_GameObject: {fileID: 1789880861211678624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1149, y: 1.1149, z: 1.1149}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1789880861211679547}
@@ -47516,7 +48054,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -740}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &1789880861211680006
 RectTransform:
@@ -47593,7 +48131,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: 433.80283, y: 55}
+  m_SizeDelta: {x: 0, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1789880861211680010
 RectTransform:
@@ -52536,8 +53074,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -52548,7 +53086,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OPEN
+  m_Text: "\u043E\u0442\u043A\u0440\u044B\u0442\u044C"
 --- !u!114 &1789880861211680192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55779,8 +56317,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -55791,7 +56329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GET BOOST
+  m_Text: "\u041F\u041E\u041B\u0423\u0427\u0418\u0422\u042C\n\u0423\u0421\u0418\u041B\u0415\u041D\u0418\u0415"
 --- !u!114 &1789880861211680306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57380,7 +57918,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -59193,8 +59731,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 64
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 53
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -59205,7 +59743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: <color=yellow>2X</color> INCOME
+  m_Text: "<color=yellow>2X</color> \u0414\u041E\u0425\u041E\u0414"
 --- !u!114 &1789880861211680428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64286,8 +64824,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -64298,7 +64836,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shop
+  m_Text: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
 --- !u!114 &1789880861211680595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67145,7 +67683,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -67604,8 +68142,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -67616,7 +68154,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Activate all manager at once!
+  m_Text: "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u0443\u0439\u0442\u0435 \u0432\u0441\u0435\u0445\n\u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u043E\u0432
+    \u0441\u0440\u0430\u0437\u0443!"
 --- !u!114 &1789880861211680708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68386,8 +68925,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 22
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -68398,7 +68937,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Watch Ad to boost x2 your income
+  m_Text: "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0440\u0435\u043A\u043B\u0430\u043C\u0443,
+    \u0447\u0442\u043E\u0431\u044B \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C\n\u0441\u0432\u043E\u0439
+    \u0434\u043E\u0445\u043E\u0434 \u0432 2 \u0440\u0430\u0437\u0430"
 --- !u!114 &1789880861211680735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68738,8 +69279,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 48
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -68750,7 +69291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Inventory
+  m_Text: "\u0418\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C"
 --- !u!114 &1789880861211680749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68824,6 +69365,58 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1789880861211680752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 0}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 1789880861211680748}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0418\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C"
+  en: Inventory
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!114 &1789880861211680753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70408,8 +71001,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 49
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -70420,7 +71013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Boost
+  m_Text: "\u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
 --- !u!114 &1789880861211680808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73431,8 +74024,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -73443,7 +74036,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No active boost!
+  m_Text: "\u041D\u0435\u0442 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+    \u0443\u0441\u0438\u043B\u0435\u043D\u0438\u044F!"
 --- !u!114 &1789880861211680910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75252,8 +75846,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -75264,7 +75858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Activate
+  m_Text: "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
 --- !u!114 &1789880861211680974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75509,8 +76103,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 52
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -75521,7 +76115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x2 Ad Boost
+  m_Text: "x2 \u0440\u0435\u043A\u043B\u0430\u043C\u043D\u043E\u0435\n\u0443\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
 --- !u!114 &1789880861211680985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75557,8 +76151,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 18e7b903e0304dcbb56146d118b119b6, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 02fff7d1ad2c1f643ad2c070a92ef590, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -75569,7 +76163,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#009FD6FF>x2 income</color> for additional 2h
+  m_Text: "<color=#009FD6FF>x2 \u0434\u043E\u0445\u043E\u0434\u0430</color> \u0432
+    \u0442\u0435\u0447\u0435\u043D\u0438\u0435 2 \u0447\u0430\u0441\u043E\u0432"
 --- !u!114 &1789880861211680987
 MonoBehaviour:
   m_ObjectHideFlags: 0

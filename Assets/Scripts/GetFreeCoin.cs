@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class GetFreeCoin : MonoBehaviour
 {
@@ -233,16 +234,21 @@ public class GetFreeCoin : MonoBehaviour
 
 	public void GetFreeCash()
 	{
-		this.freeCoinData.free = false;
+        var received = YandexGame.lang == "ru" ? "Полученный" : "Received";
+        var diamond = YandexGame.lang == "ru" ? "бриллиант" : "diamond";
+
+        this.freeCoinData.free = false;
 		this.freeCoinData.lastTimeGetFree = DateTime.Now.ToString();
 		Singleton<GameManager>.Instance.SetDiamond(this.config.freeCash.diamondBonus);
-		Notification.instance.Warning("Received <color=#00FFDFFF>" + this.config.freeCash.diamondBonus.ToString() + "</color> diamond");
+		Notification.instance.Warning($"{received} <color=#00FFDFFF>" + this.config.freeCash.diamondBonus.ToString() + $"</color> {diamond}");
 		Singleton<SoundManager>.Instance.Play("Rewarded");
 		this.FreeCashValidate();
 	}
 
 	public void WatchAdsFreeCash()
 	{
+        var received = YandexGame.lang == "ru" ? "Полученный" : "Received";
+        var diamond = YandexGame.lang == "ru" ? "бриллиант" : "diamond";
 
         AdsControl.Instance.PlayDelegateRewardVideo(delegate
 		{
@@ -256,7 +262,7 @@ public class GetFreeCoin : MonoBehaviour
 				this.freeCoinData.lastTimeWatchAd = DateTime.Now.ToString();
 			}
 			Singleton<GameManager>.Instance.SetDiamond(this.config.freeCash.diamondBonus);
-			Notification.instance.Warning("Received <color=#00FFDFFF>" + this.config.freeCash.diamondBonus.ToString() + "</color> diamond");
+			Notification.instance.Warning($"{received} <color=#00FFDFFF>" + this.config.freeCash.diamondBonus.ToString() + $"</color> {diamond}");
 			Singleton<SoundManager>.Instance.Play("Rewarded");
 			this.FreeCashValidate();
 		});
