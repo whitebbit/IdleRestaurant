@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class RestaurantPopup : MonoBehaviour
 {
@@ -127,11 +128,19 @@ public class RestaurantPopup : MonoBehaviour
 
 	public void Show()
 	{
-		GameUtilities.String.ToText(this.title, "Restaurant Lv." + this.restaurantController.restaurantData.level.ToString());
+        var restaurantLv = YandexGame.lang == "ru" ? "Ресторан Ур." : "Restaurant Lv.";
+        var level = YandexGame.lang == "ru" ? "Уровень " : "Level ";
+        var nextBoostAtLevel = YandexGame.lang == "ru" ? "Следующее усиление на уровне " : "Next boost at level ";
+        var boostMaximum = YandexGame.lang == "ru" ? "Усиление максимальное." : "Boost maximum.";
+        var max = YandexGame.lang == "ru" ? "Макс." : "Max";
+        var s = YandexGame.lang == "ru" ? "/с." : "/s";
+        var levelUpX = YandexGame.lang == "ru" ? "Повысить Уровень X" : "Level Up x";
+
+        GameUtilities.String.ToText(this.title, restaurantLv + this.restaurantController.restaurantData.level.ToString());
 		int lastBonusAtLevel = Singleton<GameProcess>.Instance.GetLastBonusAtLevel(this.restaurantController.restaurantData.level, Location.Restaurant);
 		int nextBonusAtLevel = Singleton<GameProcess>.Instance.GetNextBonusAtLevel(this.restaurantController.restaurantData.level, Location.Restaurant);
-		GameUtilities.String.ToText(this.currentLevel, "Level " + this.restaurantController.restaurantData.level.ToString());
-		GameUtilities.String.ToText(this.nextLevel, (nextBonusAtLevel != 2147483647) ? ("Next boost at level " + nextBonusAtLevel.ToString()) : "Boost maximum.");
+		GameUtilities.String.ToText(this.currentLevel, level + this.restaurantController.restaurantData.level.ToString());
+		GameUtilities.String.ToText(this.nextLevel, (nextBonusAtLevel != 2147483647) ? (nextBoostAtLevel + nextBonusAtLevel.ToString()) : boostMaximum);
 		this.currentLevelFill.fillAmount = ((nextBonusAtLevel != 2147483647) ? ((float)(this.restaurantController.restaurantData.level - lastBonusAtLevel) / (float)(nextBonusAtLevel - lastBonusAtLevel)) : 1f);
 		RestaurantProperties restaurantProperties = this.restaurantController.restaurantProperties;
 		GameUtilities.String.ToText(this.currentWaiter, restaurantProperties.waiter.ToString());
@@ -141,12 +150,12 @@ public class RestaurantPopup : MonoBehaviour
 		GameUtilities.String.ToText(this.currentTotal, GameUtilities.Currencies.Convert(restaurantProperties.transportation) + "/s");
 		if (this.IsMaxLevel())
 		{
-			GameUtilities.String.ToText(this.nextTotal, "Max");
-			GameUtilities.String.ToText(this.nextSpeed, "Max");
-			GameUtilities.String.ToText(this.nextWaiter, "Max");
-			GameUtilities.String.ToText(this.nextLoading, "Max");
-			GameUtilities.String.ToText(this.levelNumber, "Max");
-			GameUtilities.String.ToText(this.nextLoadPerWaiter, "Max");
+			GameUtilities.String.ToText(this.nextTotal, max);
+			GameUtilities.String.ToText(this.nextSpeed, max);
+			GameUtilities.String.ToText(this.nextWaiter, max);
+			GameUtilities.String.ToText(this.nextLoading, max);
+			GameUtilities.String.ToText(this.levelNumber, max);
+			GameUtilities.String.ToText(this.nextLoadPerWaiter, max);
 			GameUtilities.String.ToText(this.upgradePrice, "0");
 			this.upgradeButton.sprite = this.disableSprite;
 		}
@@ -167,10 +176,10 @@ public class RestaurantPopup : MonoBehaviour
 			GameUtilities.String.ToText(this.nextLoadPerWaiter, "+" + GameUtilities.Currencies.Convert(restaurantProperties2.loadPerWaiter - restaurantProperties.loadPerWaiter));
 			GameUtilities.String.ToText(this.nextWaiter, "+" + (restaurantProperties2.waiter - restaurantProperties.waiter).ToString());
 			GameUtilities.String.ToText(this.nextSpeed, "+" + Math.Round((double)(restaurantProperties2.walkingSpeed - restaurantProperties.walkingSpeed), 2).ToString());
-			GameUtilities.String.ToText(this.nextLoading, "+" + GameUtilities.Currencies.Convert(restaurantProperties2.loadingSpeed - restaurantProperties.loadingSpeed) + "/s");
-			GameUtilities.String.ToText(this.nextTotal, "+" + GameUtilities.Currencies.Convert(restaurantProperties2.transportation - restaurantProperties.transportation) + "/s");
+			GameUtilities.String.ToText(this.nextLoading, "+" + GameUtilities.Currencies.Convert(restaurantProperties2.loadingSpeed - restaurantProperties.loadingSpeed) + s);
+			GameUtilities.String.ToText(this.nextTotal, "+" + GameUtilities.Currencies.Convert(restaurantProperties2.transportation - restaurantProperties.transportation) + s);
 			double num2 = Singleton<GameProcess>.Instance.GetUpgradePrice(this.restaurantController.restaurantData.level, num, this.restaurantController.boostController.upgradeCostReduced, Location.Restaurant, 0);
-			GameUtilities.String.ToText(this.levelNumber, "Level Up x" + num.ToString());
+			GameUtilities.String.ToText(this.levelNumber, levelUpX + num.ToString());
 			GameUtilities.String.ToText(this.upgradePrice, GameUtilities.Currencies.Convert(num2));
 			this.upgradeButton.sprite = ((Singleton<GameManager>.Instance.database.cash < num2 || this.restaurantController.restaurantData.level + num > Singleton<GameProcess>.Instance.GetMaxLevel(Location.Restaurant)) ? this.disableSprite : this.enableSprite);
 			this.nextLevelFill.fillAmount = ((nextBonusAtLevel != 2147483647) ? ((float)(this.restaurantController.restaurantData.level + num - lastBonusAtLevel) / (float)(nextBonusAtLevel - lastBonusAtLevel)) : 1f);

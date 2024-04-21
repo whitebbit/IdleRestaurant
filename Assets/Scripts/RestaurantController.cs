@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class RestaurantController : MonoBehaviour
 {
@@ -45,13 +46,15 @@ public class RestaurantController : MonoBehaviour
 
 	public void Initialize()
 	{
-		this.waiterController = new List<WaiterController>();
+        var level = YandexGame.lang == "ru" ? "Уровень \n" : "Level \n";
+
+        this.waiterController = new List<WaiterController>();
 		this.managerController.managerAssign = new Action(this.StartTransport);
 		GameManager expr_27 = Singleton<GameManager>.Instance;
 		expr_27.onCashChange = (Action<double>)Delegate.Combine(expr_27.onCashChange, new Action<double>(this.OnCashChange));
 		float distance = Vector3.Distance(this.gatheringPoint.position, this.exploitedPoint.position);
 		this.restaurantProperties = Singleton<GameProcess>.Instance.GetRestaurantProperties(distance, this.restaurantData.level);
-		GameUtilities.String.ToText(this.levelText, "Level \n" + this.restaurantData.level.ToString());
+		GameUtilities.String.ToText(this.levelText, level + this.restaurantData.level.ToString());
 		this.boostController.Refresh();
 		this.SetWaiter(this.restaurantProperties.waiter);
 	}
@@ -85,13 +88,15 @@ public class RestaurantController : MonoBehaviour
 
 	public void Upgrade()
 	{
-		float distance = Vector3.Distance(this.gatheringPoint.position, this.exploitedPoint.position);
+        var level = YandexGame.lang == "ru" ? "Уровень \n" : "Level \n";
+
+        float distance = Vector3.Distance(this.gatheringPoint.position, this.exploitedPoint.position);
 		this.restaurantProperties = Singleton<GameProcess>.Instance.GetRestaurantProperties(distance, this.restaurantData.level);
 		if (this.restaurantProperties.waiter > this.waiterController.Count)
 		{
 			this.SetWaiter(this.restaurantProperties.waiter);
 		}
-		GameUtilities.String.ToText(this.levelText, "Level \n" + this.restaurantData.level.ToString());
+		GameUtilities.String.ToText(this.levelText, level + this.restaurantData.level.ToString());
 	}
 
 	public void StartTransport()
